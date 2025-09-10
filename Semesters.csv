@@ -1,7 +1,7 @@
 ﻿Semester,Subject Code,Subject Link,Subject Name,ECTS,Subject 2,Subjec 2 Link,Subject 3,Subject 3 Link,Subject 4,Subject 4 Link,Subject 5,Subject 5 Link
-1,HY-100,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=1,Εισαγωγή στην Επιστήμη Υπολογιστών / Introduction to Computer Science,8,,,,,,,,
-1,HY-110,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=4,"Απειροστικός Λογισμός I / Calculus I, or another course from group E1",8,,,,,,,,
-1,HY112,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=6,"Φυσική I / Physics, άλλο μάθημα επιλογής E1",8,,,,,,,,
+1,HY-100,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=1,3Εισαγωγή στην Επιστήμη Υπολογιστών / Introduction to Computer Science,8,,,,,,,,
+1,HY-110,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=4,4"55555555Απειροστικός Λογισμός I / Calculus I, or another course from group E1",8,,,,,,,,
+1,HY112,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=6,6"Φυσική I / Physics, άλλο μάθημα επιλογής E1",8,,,,,,,,
 1,HY-120,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=9,Ψηφιακή Σχεδίαση / Digital Design,8,,,,,,,,
 1,HY-108,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=2,Αγγλικά I / English I,4,,,,,,,,
 2,HY-118,http://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr&course=7,Διακριτά Μαθηματικά / Discrete Mathematics,6,,,,,,,,
@@ -35,3 +35,4 @@
 8,2 x (Ε3-Ε9),https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr,Μάθημα Επιλογής / Elective Course,12,,,,,,,,
 8,E1-E9 or Free Choice,https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=gr,Μάθημα Επιλογής / Elective Course,6,,,,,,,,
 8,,,,,,,,,,,,
+
