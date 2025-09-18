@@ -1,220 +1,220 @@
-﻿!!!!!ΣΗΜΑΝΤΙΚΑ!!!!!;;;;;;;
-1)  ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΑ ΠΑΡΑΚΑΤΩ;;;;;;;
-2) Το αρχείο πρέπει να έχει ΥΠΟΧΡΕΩΤΙΚΑ όνομα DoorNames και να είναι  Υπολογιστικό Φύλλο .csv διαχωρισμένο με ','(ΚΟΜΜΑ) στην εξαγωγή του αρχείου και UTF-8 κωδικοποίηση;;;;;;;
-3) όταν κάνετε εξαγωγή, σιγουρευτείτε ότι ονομάζετε το αρχείο DoorNames.csv;;;;;;;
-4) ΔΕΝ ΠΕΙΡΑΖΟΥΜΕ την ΠΡΩΤΗ ΣΤΗΛΗ;;;;;;;
-5) Η ΠΡΩΤΗ ΣΤΗΛΗ αναπαριστά την αληθινή αίθουσα στο κτήριο και οτιδήποτε γραφτεί στις ΕΠΟΜΕΝΕΣ ΣΤΗΛΕΣ θα εμφανιστεί στην αντίστοιχη αίθουσα στο πρόγραμμα, άρα π.χ. ό,τι θέλετε να εμφανίζεται έξω από την αίθουσα Α113, θα πρέπει να βρείτε την Α113 στην πρώτη στήλη και μετά να γράψετε τα περιέχομενα που θα εμφανίζονται στην αίθουσα στις επόμενες 3 στήλες ΔΕΞΙΑ.;;;;;;;
-6) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΤΗΝ ΣΕΙΡΑ ΤΩΝ ΣΤΗΛΩΝ;;;;;;;
-7) Στις επόμενες 3 ΣΤΗΛΕΣ, μπορεί να γραφτεί οτιδήποτε. ;;;;;;;
-8) Τα περιεχόμενα της 2ης στήλης(ΑΡΙΘΜΟΣ ΑΙΘΟΥΣΑΣ), π.χ. Α113, θα εμφανίζονται πιο πάνω από όλες τις πληροφορίες.;;;;;;;
-"9) Τα περιεχόμενα της 3ης στήλης(ΟΝΟΜΑ ΑΙΘΟΥΣΑΣ), π.χ. ""Lecture Room - Αίθουσα Διδασκαλίας"" θα εμφανίζονται στην μέση των πληροφοριών.";;;;;;;
-10) Τα περιεχόμενα της 4ης στήλης(ΠΑΡΑΠΑΝΩ ΠΛΗΡΟΦΟΡΙΕΣ) θα εμφανίζονται χαμηλότερα από όλες τις πληροφορίες.;;;;;;;
-11) Γίνεται να μείνουν πεδία/στήλες άδειες, δεν είναιι υποχρεωτική η εισαγωγή πληροφορίας.;;;;;;;
-12)Πάντα ελέγχουμε όταν κάνουμε αλλαγές, μετά από ένα 5-10λεπτο, ότι οι αλλαγές ανανεώθηκαν στο πρόγραμμα και δεν υπάρχουν προβλήματα. (Εννοείται ελέγχουμε μετά το ανέβασμα του αρχείου στο repository);;;;;;;
-13) Ελέγχουμε τις αίθουσες που αλλάζουμε ότι ανανεώθηκαν οι πληροφορίες σωστά.;;;;;;;
-14) Ελέγχουμε ότι το αρχείο δεν έχει παράξενα σύμβολα μετά την εξαγωγή;;;;;;;
-15) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΠΡΙΝ ΤΗΝ ΓΡΑΜΜΗ 21. Επεξεργασία στις γραμμές από την ΓΡΑΜΜΗ 21 και κάτω.;;;;;;;
-16) ΔΕΝ αλλάζουμε την Γραμμή 21 - Κατηγορίες Στηλών;;;;;;;
-17) Κάνουμε εξαγωγή αρχείο CSV-Υπολογιστικό Φύλλο με UTF-8 ;;;;;;;
-18) ΥΠΟΧΡΕΩΤΙΚΑ διαχωρισμένο με ','(ΚΟΜΜΑ): Εξαγωγή/Αποθήκευση Ως CSV UTF-8 (Comma delimited);;;;;;;
-19) Το αρχείο πρέπει να είναι CSV και η τελική του ονομασία να είναι                           DoorNames.csv;;;;;;;
-!!!!!ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΑΥΤΗΝ ΤΗΝ ΣΤΗΛΗ!!!!!;ΑΡΙΘΜΟΣ ΑΙΘΟΥΣΑΣ;ΟΝΟΜΑ ΑΙΘΟΥΣΑΣ;ΠΑΡΑΠΑΝΩ ΠΛΗΡΟΦΟΡΙΕΣ;;;;
-A101;A101;Εργαστήριο Τηλεπικοινωνιών και Δικτύων;Networking and Communications Lab;;;;
-A103;A103;Εργαστήριο Ψηφιακής Σχεδίασης;Digital Design Lab - 2;;;;
-A105;A105;Εργαστήριο Ψηφιακής Σχεδίασης;Digital Design Lab - 2;;;;
-A107;A107;Εργαστήριο Ψηφιακής Σχεδίασης;Digital Design Lab - 1;;;;
-A109;A109;Εργαστήριο Ψηφιακής Σχεδίασης;Digital Design Lab - 1;;;;
-A111;A111;Αίθουσα Διδασκαλίας;Lecture Room - A1;;;;
-A113;A113;Αίθουσα Διδασκαλίας;Lecture Room - A1;;;;
-A115;A115;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Αίθουσα Διδασκαλίας / Lecture Room - A2;;;;
-A117;A117;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Αίθουσα Διδασκαλίας / Lecture Room - A2;;;;
-A119;A119;Αίθουσα Διδασκαλίας;Lecture Room - A3;;;;
-A121;A121;Αίθουσα Διδασκαλίας;Lecture Room - A3;;;;
-A123;A123;Αίθουσα Διδασκαλίας;Lecture Room - A4;;;;
-A125;A125;Αίθουσα Διδασκαλίας;Lecture Room - A4;;;;
-B101;B101;;;;;;
-B102;B102;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-B103;B103;;;;;;
-B104;B104;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-B105;B105;;;;;;
-B106;B106;Αίθουσα Διδασκαλίας με Η/Υ;Lecture Room;;;;
-B107;B107;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-B108;B108;Αίθουσα Διδασκαλίας με Η/Υ;Lecture Room;;;;
-B109;B109;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Μεταπτυχιακοί Φοιτητές / Graduate Students ;;;;
-B110;B110;Αίθουσα Διδασκαλίας με Η/Υ;Lecture Room;;;;
-B111;B111;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Μεταπτυχιακοί Φοιτητές / Graduate Students ;;;;
-B112;B112;;;;;;
-B113;B113;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-B115;B115;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E101;E101;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E102;E102;;;;;;
-E103;E103;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E104;E104;;;;;;
-E105;E105;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E106;E106;;;;;;
-E108;E108;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E110;E110;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-E112;E112;Εκπαιδευτικό Εργαστήριο Η/Υ;Computer Room;;;;
-H101;H101;;;;;;
-H102;H102;;;;;;
-H103;H103;;;;;;
-H104;H104;Αποθήκη;Storage Room;;;;
-H105;H105;Κυλικείο;Cafeteria;;;;
-H106;H106;Σύλλογος Φοιτητών ΤΕΥ;CSD Students' Association;;;;
-H107;H107;Κυλικείο;Cafeteria;;;;
-H108;H108;Τεχνική Υποστήριξη;Technical Support;;;;
-H109;H109;;Front Door;;;;
-H109b;H109;;Back Door;;;;
-H110;H110;Αποθήκη Υλικού;Materials Storage;;;;
-H112;H112;;;;;;
-H114;H114;;;;;;
-B201;B201;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;ΕΔΙΠ: Σταμάτης Σταματιάδης / Teaching Personnel: Stamatis Stamatiadis;;;;
-B202;B202;Αίθουσα Μηχανών;Machine Room;;;;
-B203;B203;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;ΕΔΙΠ: Εμμανουήλ Τυλλιανάκης / Teaching Personnel: Emmanuel Tyllianakis;;;;
-B204;B204;Αίθουσα Μηχανών;Machine Room;;;;
-B205;B205;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Καθηγητής: Γεώργιος Κιοσέογλου / Professor: George Kioseoglou;;;;
-B206;B206;Συντήρηση;Service;;;;
-B207;B207;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Αναπληρωτής Καθηγητής: Ιωάννης Ρεμεδιάκης / Associate Professor: Ioannis Remediakis;;;;
-B208;B208;Μεταπτυχιακό Σπουδαστήριο;Graduate Students;;;;
-B209;B209;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Αναπληρωτής Καθηγητής: Γεώργιος Κοπιδάκης / Associate Professor: George Kopidakis;;;;
-B210;B210;Μεταπτυχιακό Σπουδαστήριο;Graduate Students;;;;
-B211;B211;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Αναπληρωτής Καθηγητής: Ανδρέας Λυμπεράτος / Associate Professor: Andreas Lyberatos;;;;
-B212;B212;Μεταπτυχιακό Σπουδαστήριο;Graduate Students;;;;
-B213;B213;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Καθηγήτρια:Μαρία Καφεσάκη , Αναπληρωτής Καθηγητής: Δημήτριος Παπάζογλου / Professor: Maria Kafesaki , Associate Professor: Dimitrios Papazoglou;;;;
-B214;B214;;;;;;
-B215;B215;Γιάννης Σουρλαντζής;Yannis Sourlantzis;;;;
-B217;B217;Νίκος Κρασσάς;Nikolas Krassas;;;;
-B219;B219;Παναγιώτης Βαβίλης;Panagiotis Vavilis;;;;
-B221;B221;;;;;;
-B223;B223;;;;;;
-B225;B225;;;;;;
-B227;B227;<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>;Επίκουρος Καθηγητής: Δημήτριος Τζεράνης / Assistant Professor: Dimitrios Tzeranis;;;;
-B229;B229;Μαίρη Μαμαλάκη;Maria Mamalaki;;;;
-E201;E201;Γραμματεία Προπτυχιακών Σπουδών / Office of Undergraduate Studies;Στέλλα Συντιχάκη , Δέσποινα Χατζάκη / Stella Syntichaki , Despoina Chatzaki;;;;
-E202;E202;Γραμματεία Μεταπτυχιακών Σπουδών;Office of Graduate Studies;;;;
-E203;E203;Θυρίδες - Φωτοτυπικό;Copy Room;;;;
-E204;E204;Γραφείο Υποψήφιων Διδακτόρων;Office of Doctoral Candidates;;;;
-E205;E205;Τμήμα Επιστήμης Υπολογιστών - Αρχείο;Department of Computer Science - Registry;;;;
-E206;E206;Νόνη Ριζοπούλου;Noni Rizopoulou;;;;
-E207;E207;;;;;;
-E208;E208;ΑΙΘΟΥΣΑ ΣΥΝΕΔΡΙΩΝ - ΜΟΝΑΔΑ ΙΣΟΤΙΜΗΣ ΠΡΟΣΒΑΣΗΣ;Conference Room - Peer Access Unit;;;;
-E210;E210;Παύλος Μαθιουδάκης;Pavlos Mathioudakis;;;;
-H201;H201;Ομάδα Καθαριότητας;Cleaning Team;;;;
-H202;H202;Αίθουσα Διδασκαλίας;Lecture Room - H1;;;;
-H203;H203;Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory;Athanasia Margetousaki, Harria Papadaki, Maria Vitsaki, Glykeria Fragioudaki;;;;
-H204;H204;Αίθουσα Διδασκαλίας;Lecture Room - H1;;;;
-H205;H205;Ομάδα Δαίδαλος - 0xdeadalu5;CTF(Capture The Flag) Team;;;;
-H206;H206;Αίθουσα Διδασκαλίας;Lecture Rooom - H2;;;;
-H208;H208;Αίθουσα Διδασκαλίας;Lecture Room - H3;;;;
-H210;H210;;;;;;
-H212;H212;;;;;;
-H214;H214;;;;;;
-H216;H216;;;;;;
-K201;K201;Αίθουσα Συναντήσεων;Meeting Room;;;;
-K202;K202;Αίθουσα Τηλεκπαίδευσης;Distance Learning Classroom;;;;
-K203;K203;Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory;Γιώργος Βιτσάκης / Giorgos Vitsakis;;;;
-K204;K204;Αίθουσα Τηλεκπαίδευσης;Distance Learning Classroom;;;;
-K205;K205;Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory;Γρηγόρης Τζανοδασκαλάκης / Grigoris Tzanodaskalakis;;;;
-K206;K206;Αίθουσα Τηλεκπαίδευσης;Distance Learning Classroom;;;;
-K207;K207;Μιχάλης Μουνταντωνάκης;Michalis Mountantonakis;;;;
-K208;K208;Αίθουσα Τηλεκπαίδευσης;Distance Learning Classroom;;;;
-K209;K209;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-K210;K210;Εργαστήριο Ανάλυσης Δεδομένων;Data Analysis Laboratory;;;;
-K211;K211;Φραγκιαδάκης Γιάννης;Fragkiadakis Yannis;;;;
-K213;K213;;;;;;
-K212;K212;Εργαστήριο Ανάλυσης Δεδομένων;Data Analysis Laboratory;;;;
-K214;K214;Εργαστήριο Παράλληλου και Κατανεμημένου Υπολογισμού;Parallel and Distributed Computing Laboratory;;;;
-K215;K215;Γιώργος Παπαγιαννάκης;George Papagiannakis;;;;
-K216;K216;Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων / Information and Knowledge Systems Engineering Laboratory;Εργαστήριο 3D Εκτύπωσης και Κατασκευών / 3D Printing & Makers' Lab;;;;
-K217;K217;Αίθουσα Συναντήσεων (+ Καρέκλες & Κ200 εκτυπωτής);Meeting Room (+ Chairs & Κ200 εκτυπωτής);;;;
-K218;K218;Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων;Information and Knowledge Systems Engineering Laboratory;;;;
-K219;K219;Αίθουσα Συναντήσεων;Meeting Room;;;;
-K220;K220;Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων;Information and Knowledge Systems Engineering Laboratory;;;;
-K221;K221;Γιάννης Τζίτζικας;Yannis Tzitzikas;;;;
-K223;K223;Μάριος Πιτικάκης;Marios Pitikakis;;;;
-K225;K225;Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory;Μεταδιδακτορικοί Ερευνητές / Postdoctoral Researchers;;;;
-K227;K227;Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory;Γραμματεία , Μεταδιδακτορικός Ερευνητής / Secretariat , Postdoctoral Researcher;;;;
-B301;B301;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-B302;B302;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-B303;B303;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-B304;B304;Τσαγκατάκης Γρηγόριος;Tsagkatakis Grigorios;;;;
-B305;B305;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-B306;B306;Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων;Signal and Image Processing Laboratory;;;;
-B307;B307;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-B308;B308;Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων;Signal and Image Processing Laboratory;;;;
-B309;B309;Πάνος Τσακαλίδης;Panos Tsakalides;;;;
-B310;B310;Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων;;;;;
-B311;B311;Λεωνίδης Αστέριος;Leonidis Asterios;;;;
-B312;B312;Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων;;;;;
-B313;B313;Θανάσης Μουχτάρης;Thanasis Mouchtaris;;;;
-B314;B314;Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης;Faculty Meeting Room;;;;
-B315;B315;Μαρία Παπαδοπούλη;Maria Papadopouli;;;;
-B316;B316;Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης;Faculty Meeting Room;;;;
-B317;B317;Ξενοφώντας Δημητρόπουλος;Xenofontas Dimitropoulos;;;;
-B318;B318;Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης;Faculty Meeting Room;;;;
-B319;B319;Γεώργιος Τζιρίτας;Georgios Tziritas;;;;
-B320;B320;Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης;Faculty Meeting Room;;;;
-B321;B321;;;;;;
-B322;B322;;;;;;
-B323;B323;;;;;;
-B325;B325;;;;;;
-B327;B327;Απόστολος Τραγανίτης;Apostolos Traganitis;;;;
-B329;B329;Νικόλαος Κομοντάκης;Nikolaos Komontakis;;;;
-E301;E301;Επιστημονικός Συνεργάτης / Visiting Scientist;Νικόλαος Τσατσάκης / Nikolaos Tsatsakis;;;;
-E302;E302;Αίθουσα Συναντήσεων;Meeting Room;;;;
-E303;E303;Μαρίνα Μπιτσάκη & Μάνος Καμαριανάκης;Marina Bitsaki & Manos Kamarianakis;;;;
-E304;E304;Προϊσταμένη Γραμματείας / Administration;Ρένα Καλαϊτζάκη / Rena Kalaitzaki;;;;
-E305;E305;Μαρία Σαβιολάκη;Maria Saviolaki;;;;
-E306;E306;Πρόεδρος / Chair;Κωνσταντίνος Μαγκούτης / Kostas Magoutis;;;;
-E307;E307;Άννα Σφακιανάκη;Anna Sfakianaki;;;;
-E308;E308;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-E309;E309;Αίθουσα Σεμιναρίων;Seminar Room - E2;;;;
-E310;E310;Επισκέπτης Καθηγητής;Visiting Faculty;;;;
-E311;E311;Αίθουσα Σεμιναρίων;Seminar Room - E2;;;;
-E313;E313;Αίθουσα Σεμιναρίων;Seminar Room - E1;;;;
-E315;E315;Αίθουσα Σεμιναρίων;Seminar Room - E1;;;;
-E317;E317;Αίθουσα Ελέγχου;Control Room;;;;
-H301;H301;Μεταδιδακτορικοί Φοιτητές;Postgraduate Students;;;;
-H302;H302;Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής;Multimedia Informatics Lab (MIL) Speech Signal Processing;;;;
-H303;H303;Επισκέπτης Καθηγητής / Visiting Faculty;Γεώργιος Καφεντζής / Georgios Kafentzis;;;;
-H304;H304;Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής;Multimedia Informatics Lab (MIL) Speech Signal Processing;;;;
-H305;H305;Γιάννης Στυλιανού;Yannis Stylianou;;;;
-H306;H306;ΠΛΑΤΩΝ - Εργαστήριο Γλωσσών και Εργαλείων Προγραμματισμού;PLATO - Programming Languages and Tools Laboratory;;;;
-H307;H307;Επισκέπτης Καθηγητής / Visiting Professor;Νίκος Σιαφάκας / Nikos Siafakas;;;;
-H308;H308;Αίθουσα Τηλεκπαίδευσης;Distance Learning Classroom;;;;
-H309;H309;Χαρίδημος Κονδυλάκης;Haridimos Kondylakis;;;;
-H310;H310;Αποθήκη;Storage Room;;;;
-H311;H311;Αναπληρωτής Καθηγητής / Associate Professor;Κωνσταντίνος Μαγκούτης / Kostas Magoutis;;;;
-H312;H312;;;;;;
-H314;H314;;;;;;
-H316;H316;;;;;;
-K301;K301;;;;;;
-K302;K302;Εργαστήριο Υπολογιστικής Όρασης, Γραφικής και Ρομποτικής;Computational Vision, Graphics and Robotics Laboratory;;;;
-K303;K303;Αίθουσα Συναντήσεων (+K300 εκτυπωτής);Meeting Room (+K300 printer);;;;
-K304;K304;Εργαστήριο Υπολογιστικής Όρασης, Γραφικής και Ρομποτικής;Computational Vision, Graphics and Robotics Laboratory;;;;
-K305;K305;Ιωάννης Τσαμαρδίνος;Ioannis Tsamardinos;;;;
-K306;K306;Εργαστήριο Κυβερνοασφάλειας και Ιδιωτικότητας;Cybersecurity and Privacy Laboratory;;;;
-K307;K307;Δημήτρης Πλεξουσάκης;Dimitris Plexousakis;;;;
-K308;K308;Εργαστήριο Δικτύων και Οπτικοποίησης Πληροφορίας;Networks and Information Visualization Laboratory;;;;
-K309;K309;Αντώνης Αργυρός;Antonis Argyros;;;;
-K310;K310;Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή;Human-Computer Interaction Laboratory;;;;
-K311;K311;Παναγιώτα Φατούρου;Panagiota Fatourou;;;;
-K312;K312;Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή;Human-Computer Interaction Laboratory;;;;
-K313;K313;Πάνος Τραχανίας;Panos Trahanias;;;;
-K314;K314;Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών;Computer Architecture, Systems, and Languages Laboratory;;;;
-K315;K315;Αντώνης Σαββίδης;Antonis Savidis;;;;
-K316;K316;Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών;Computer Architecture, Systems, and Languages Laboratory;;;;
-K317;K317;Ιωάννης Γ. Τόλλης;Ioannis G. Tollis;;;;
-K319;K319;Βασίλης Παπαευσταθίου;Vassilis Papaefstathiou;;;;
-K321;K321;Κωνσταντίνος Στεφανίδης;Constantine Stephanidis;;;;
-K323;K323;Βαγγέλης Μαρκάτος;Evangelos Markatos;;;;
-K325;K325;Άγγελος Μπίλας;Angelos Bilas;;;;
-K327;K327;Πολύβιος Πρατικάκης;Polyvios Pratikakis;;;;
-K329;K329;Μανόλης Γ. Η. Κατεβαίνης;Manolis G. H. Katevenis;;;;
-AMFA;ΑΜΦ Α;Αμφιθέατρο Α;Auditorium A;;;;
-AMFSO;ΑΜΦ Σ.Ο.;Αμφιθέατρο Σ.Ο.;Auditorium S.O.;;;;
-AMFA_DOWN;ΑΜΦ Α;Αμφιθέατρο Α;Auditorium A;;;;
-AMFSO_DOWN;ΑΜΦ Σ.Ο.;Αμφιθέατρο Σ.Ο.;Auditorium S.O.;;;;
-Anagnostiria;Study Rooms;;Αναγνωστήρια;;;;
-;;;;;;;
-K1;K1 Corridor;;;;;;
+﻿!!!!!ΣΗΜΑΝΤΙΚΑ!!!!!,,,,,,,
+1)  ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΑ ΠΑΡΑΚΑΤΩ,,,,,,,
+"2) Το αρχείο πρέπει να έχει ΥΠΟΧΡΕΩΤΙΚΑ όνομα DoorNames και να είναι  Υπολογιστικό Φύλλο .csv διαχωρισμένο με ','(ΚΟΜΜΑ) στην εξαγωγή του αρχείου και UTF-8 κωδικοποίηση",,,,,,,
+"3) όταν κάνετε εξαγωγή, σιγουρευτείτε ότι ονομάζετε το αρχείο DoorNames.csv",,,,,,,
+4) ΔΕΝ ΠΕΙΡΑΖΟΥΜΕ την ΠΡΩΤΗ ΣΤΗΛΗ,,,,,,,
+"5) Η ΠΡΩΤΗ ΣΤΗΛΗ αναπαριστά την αληθινή αίθουσα στο κτήριο και οτιδήποτε γραφτεί στις ΕΠΟΜΕΝΕΣ ΣΤΗΛΕΣ θα εμφανιστεί στην αντίστοιχη αίθουσα στο πρόγραμμα, άρα π.χ. ό,τι θέλετε να εμφανίζεται έξω από την αίθουσα Α113, θα πρέπει να βρείτε την Α113 στην πρώτη στήλη και μετά να γράψετε τα περιέχομενα που θα εμφανίζονται στην αίθουσα στις επόμενες 3 στήλες ΔΕΞΙΑ.",,,,,,,
+6) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΤΗΝ ΣΕΙΡΑ ΤΩΝ ΣΤΗΛΩΝ,,,,,,,
+"7) Στις επόμενες 3 ΣΤΗΛΕΣ, μπορεί να γραφτεί οτιδήποτε. ",,,,,,,
+"8) Τα περιεχόμενα της 2ης στήλης(ΑΡΙΘΜΟΣ ΑΙΘΟΥΣΑΣ), π.χ. Α113, θα εμφανίζονται πιο πάνω από όλες τις πληροφορίες.",,,,,,,
+"9) Τα περιεχόμενα της 3ης στήλης(ΟΝΟΜΑ ΑΙΘΟΥΣΑΣ), π.χ. ""Lecture Room - Αίθουσα Διδασκαλίας"" θα εμφανίζονται στην μέση των πληροφοριών.",,,,,,,
+10) Τα περιεχόμενα της 4ης στήλης(ΠΑΡΑΠΑΝΩ ΠΛΗΡΟΦΟΡΙΕΣ) θα εμφανίζονται χαμηλότερα από όλες τις πληροφορίες.,,,,,,,
+"11) Γίνεται να μείνουν πεδία/στήλες άδειες, δεν είναιι υποχρεωτική η εισαγωγή πληροφορίας.",,,,,,,
+"12)Πάντα ελέγχουμε όταν κάνουμε αλλαγές, μετά από ένα 5-10λεπτο, ότι οι αλλαγές ανανεώθηκαν στο πρόγραμμα και δεν υπάρχουν προβλήματα. (Εννοείται ελέγχουμε μετά το ανέβασμα του αρχείου στο repository)",,,,,,,
+13) Ελέγχουμε τις αίθουσες που αλλάζουμε ότι ανανεώθηκαν οι πληροφορίες σωστά.,,,,,,,
+14) Ελέγχουμε ότι το αρχείο δεν έχει παράξενα σύμβολα μετά την εξαγωγή,,,,,,,
+15) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΠΡΙΝ ΤΗΝ ΓΡΑΜΜΗ 21. Επεξεργασία στις γραμμές από την ΓΡΑΜΜΗ 21 και κάτω.,,,,,,,
+16) ΔΕΝ αλλάζουμε την Γραμμή 21 - Κατηγορίες Στηλών,,,,,,,
+17) Κάνουμε εξαγωγή αρχείο CSV-Υπολογιστικό Φύλλο με UTF-8 ,,,,,,,
+"18) ΥΠΟΧΡΕΩΤΙΚΑ διαχωρισμένο με ','(ΚΟΜΜΑ): Εξαγωγή/Αποθήκευση Ως CSV UTF-8 (Comma delimited)",,,,,,,
+19) Το αρχείο πρέπει να είναι CSV και η τελική του ονομασία να είναι                           DoorNames.csv,,,,,,,
+!!!!!ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΑΥΤΗΝ ΤΗΝ ΣΤΗΛΗ!!!!!,ΑΡΙΘΜΟΣ ΑΙΘΟΥΣΑΣ,ΟΝΟΜΑ ΑΙΘΟΥΣΑΣ,ΠΑΡΑΠΑΝΩ ΠΛΗΡΟΦΟΡΙΕΣ,,,,
+A101,A101,Εργαστήριο Τηλεπικοινωνιών και Δικτύων,Networking and Communications Lab,,,,
+A103,A103,Εργαστήριο Ψηφιακής Σχεδίασης,Digital Design Lab - 2,,,,
+A105,A105,Εργαστήριο Ψηφιακής Σχεδίασης,Digital Design Lab - 2,,,,
+A107,A107,Εργαστήριο Ψηφιακής Σχεδίασης,Digital Design Lab - 1,,,,
+A109,A109,Εργαστήριο Ψηφιακής Σχεδίασης,Digital Design Lab - 1,,,,
+A111,A111,Αίθουσα Διδασκαλίας,Lecture Room - A1,,,,
+A113,A113,Αίθουσα Διδασκαλίας,Lecture Room - A1,,,,
+A115,A115,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Αίθουσα Διδασκαλίας / Lecture Room - A2,,,,
+A117,A117,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Αίθουσα Διδασκαλίας / Lecture Room - A2,,,,
+A119,A119,Αίθουσα Διδασκαλίας,Lecture Room - A3,,,,
+A121,A121,Αίθουσα Διδασκαλίας,Lecture Room - A3,,,,
+A123,A123,Αίθουσα Διδασκαλίας,Lecture Room - A4,,,,
+A125,A125,Αίθουσα Διδασκαλίας,Lecture Room - A4,,,,
+B101,B101,,,,,,
+B102,B102,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+B103,B103,,,,,,
+B104,B104,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+B105,B105,,,,,,
+B106,B106,Αίθουσα Διδασκαλίας με Η/Υ,Lecture Room,,,,
+B107,B107,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+B108,B108,Αίθουσα Διδασκαλίας με Η/Υ,Lecture Room,,,,
+B109,B109,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Μεταπτυχιακοί Φοιτητές / Graduate Students ,,,,
+B110,B110,Αίθουσα Διδασκαλίας με Η/Υ,Lecture Room,,,,
+B111,B111,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Μεταπτυχιακοί Φοιτητές / Graduate Students ,,,,
+B112,B112,,,,,,
+B113,B113,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+B115,B115,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E101,E101,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E102,E102,,,,,,
+E103,E103,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E104,E104,,,,,,
+E105,E105,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E106,E106,,,,,,
+E108,E108,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E110,E110,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+E112,E112,Εκπαιδευτικό Εργαστήριο Η/Υ,Computer Room,,,,
+H101,H101,,,,,,
+H102,H102,,,,,,
+H103,H103,,,,,,
+H104,H104,Αποθήκη,Storage Room,,,,
+H105,H105,Κυλικείο,Cafeteria,,,,
+H106,H106,Σύλλογος Φοιτητών ΤΕΥ,CSD Students' Association,,,,
+H107,H107,Κυλικείο,Cafeteria,,,,
+H108,H108,Τεχνική Υποστήριξη,Technical Support,,,,
+H109,H109,,Front Door,,,,
+H109b,H109,,Back Door,,,,
+H110,H110,Αποθήκη Υλικού,Materials Storage,,,,
+H112,H112,,,,,,
+H114,H114,,,,,,
+B201,B201,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,ΕΔΙΠ: Σταμάτης Σταματιάδης / Teaching Personnel: Stamatis Stamatiadis,,,,
+B202,B202,Αίθουσα Μηχανών,Machine Room,,,,
+B203,B203,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,ΕΔΙΠ: Εμμανουήλ Τυλλιανάκης / Teaching Personnel: Emmanuel Tyllianakis,,,,
+B204,B204,Αίθουσα Μηχανών,Machine Room,,,,
+B205,B205,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Καθηγητής: Γεώργιος Κιοσέογλου / Professor: George Kioseoglou,,,,
+B206,B206,Συντήρηση,Service,,,,
+B207,B207,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Αναπληρωτής Καθηγητής: Ιωάννης Ρεμεδιάκης / Associate Professor: Ioannis Remediakis,,,,
+B208,B208,Μεταπτυχιακό Σπουδαστήριο,Graduate Students,,,,
+B209,B209,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Αναπληρωτής Καθηγητής: Γεώργιος Κοπιδάκης / Associate Professor: George Kopidakis,,,,
+B210,B210,Μεταπτυχιακό Σπουδαστήριο,Graduate Students,,,,
+B211,B211,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Αναπληρωτής Καθηγητής: Ανδρέας Λυμπεράτος / Associate Professor: Andreas Lyberatos,,,,
+B212,B212,Μεταπτυχιακό Σπουδαστήριο,Graduate Students,,,,
+B213,B213,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,"Καθηγήτρια:Μαρία Καφεσάκη , Αναπληρωτής Καθηγητής: Δημήτριος Παπάζογλου / Professor: Maria Kafesaki , Associate Professor: Dimitrios Papazoglou",,,,
+B214,B214,,,,,,
+B215,B215,Γιάννης Σουρλαντζής,Yannis Sourlantzis,,,,
+B217,B217,Νίκος Κρασσάς,Nikolas Krassas,,,,
+B219,B219,Παναγιώτης Βαβίλης,Panagiotis Vavilis,,,,
+B221,B221,,,,,,
+B223,B223,,,,,,
+B225,B225,,,,,,
+B227,B227,<color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color>,Επίκουρος Καθηγητής: Δημήτριος Τζεράνης / Assistant Professor: Dimitrios Tzeranis,,,,
+B229,B229,Μαίρη Μαμαλάκη,Maria Mamalaki,,,,
+E201,E201,Γραμματεία Προπτυχιακών Σπουδών / Office of Undergraduate Studies,"Στέλλα Συντιχάκη , Δέσποινα Χατζάκη / Stella Syntichaki , Despoina Chatzaki",,,,
+E202,E202,Γραμματεία Μεταπτυχιακών Σπουδών,Office of Graduate Studies,,,,
+E203,E203,Θυρίδες - Φωτοτυπικό,Copy Room,,,,
+E204,E204,Γραφείο Υποψήφιων Διδακτόρων,Office of Doctoral Candidates,,,,
+E205,E205,Τμήμα Επιστήμης Υπολογιστών - Αρχείο,Department of Computer Science - Registry,,,,
+E206,E206,Νόνη Ριζοπούλου,Noni Rizopoulou,,,,
+E207,E207,,,,,,
+E208,E208,ΑΙΘΟΥΣΑ ΣΥΝΕΔΡΙΩΝ - ΜΟΝΑΔΑ ΙΣΟΤΙΜΗΣ ΠΡΟΣΒΑΣΗΣ,Conference Room - Peer Access Unit,,,,
+E210,E210,Παύλος Μαθιουδάκης,Pavlos Mathioudakis,,,,
+H201,H201,Ομάδα Καθαριότητας,Cleaning Team,,,,
+H202,H202,Αίθουσα Διδασκαλίας,Lecture Room - H1,,,,
+H203,H203,Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory,"Athanasia Margetousaki, Harria Papadaki, Maria Vitsaki, Glykeria Fragioudaki",,,,
+H204,H204,Αίθουσα Διδασκαλίας,Lecture Room - H1,,,,
+H205,H205,Ομάδα Δαίδαλος - 0xdeadalu5,CTF(Capture The Flag) Team,,,,
+H206,H206,Αίθουσα Διδασκαλίας,Lecture Rooom - H2,,,,
+H208,H208,Αίθουσα Διδασκαλίας,Lecture Room - H3,,,,
+H210,H210,,,,,,
+H212,H212,,,,,,
+H214,H214,,,,,,
+H216,H216,,,,,,
+K201,K201,Αίθουσα Συναντήσεων,Meeting Room,,,,
+K202,K202,Αίθουσα Τηλεκπαίδευσης,Distance Learning Classroom,,,,
+K203,K203,Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory,Γιώργος Βιτσάκης / Giorgos Vitsakis,,,,
+K204,K204,Αίθουσα Τηλεκπαίδευσης,Distance Learning Classroom,,,,
+K205,K205,Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory,Γρηγόρης Τζανοδασκαλάκης / Grigoris Tzanodaskalakis,,,,
+K206,K206,Αίθουσα Τηλεκπαίδευσης,Distance Learning Classroom,,,,
+K207,K207,Μιχάλης Μουνταντωνάκης,Michalis Mountantonakis,,,,
+K208,K208,Αίθουσα Τηλεκπαίδευσης,Distance Learning Classroom,,,,
+K209,K209,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+K210,K210,Εργαστήριο Ανάλυσης Δεδομένων,Data Analysis Laboratory,,,,
+K211,K211,Φραγκιαδάκης Γιάννης,Fragkiadakis Yannis,,,,
+K213,K213,,,,,,
+K212,K212,Εργαστήριο Ανάλυσης Δεδομένων,Data Analysis Laboratory,,,,
+K214,K214,Εργαστήριο Παράλληλου και Κατανεμημένου Υπολογισμού,Parallel and Distributed Computing Laboratory,,,,
+K215,K215,Γιώργος Παπαγιαννάκης,George Papagiannakis,,,,
+K216,K216,Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων / Information and Knowledge Systems Engineering Laboratory,Εργαστήριο 3D Εκτύπωσης και Κατασκευών / 3D Printing & Makers' Lab,,,,
+K217,K217,Αίθουσα Συναντήσεων (+ Καρέκλες & Κ200 εκτυπωτής),Meeting Room (+ Chairs & Κ200 εκτυπωτής),,,,
+K218,K218,Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων,Information and Knowledge Systems Engineering Laboratory,,,,
+K219,K219,Αίθουσα Συναντήσεων,Meeting Room,,,,
+K220,K220,Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων,Information and Knowledge Systems Engineering Laboratory,,,,
+K221,K221,Γιάννης Τζίτζικας,Yannis Tzitzikas,,,,
+K223,K223,Μάριος Πιτικάκης,Marios Pitikakis,,,,
+K225,K225,Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory,Μεταδιδακτορικοί Ερευνητές / Postdoctoral Researchers,,,,
+K227,K227,Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory,"Γραμματεία , Μεταδιδακτορικός Ερευνητής / Secretariat , Postdoctoral Researcher",,,,
+B301,B301,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+B302,B302,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+B303,B303,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+B304,B304,Τσαγκατάκης Γρηγόριος,Tsagkatakis Grigorios,,,,
+B305,B305,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+B306,B306,Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων,Signal and Image Processing Laboratory,,,,
+B307,B307,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+B308,B308,Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων,Signal and Image Processing Laboratory,,,,
+B309,B309,Πάνος Τσακαλίδης,Panos Tsakalides,,,,
+B310,B310,Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων,,,,,
+B311,B311,Λεωνίδης Αστέριος,Leonidis Asterios,,,,
+B312,B312,Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων,,,,,
+B313,B313,Θανάσης Μουχτάρης,Thanasis Mouchtaris,,,,
+B314,B314,Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης,Faculty Meeting Room,,,,
+B315,B315,Μαρία Παπαδοπούλη,Maria Papadopouli,,,,
+B316,B316,Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης,Faculty Meeting Room,,,,
+B317,B317,Ξενοφώντας Δημητρόπουλος,Xenofontas Dimitropoulos,,,,
+B318,B318,Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης,Faculty Meeting Room,,,,
+B319,B319,Γεώργιος Τζιρίτας,Georgios Tziritas,,,,
+B320,B320,Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης,Faculty Meeting Room,,,,
+B321,B321,,,,,,
+B322,B322,,,,,,
+B323,B323,,,,,,
+B325,B325,,,,,,
+B327,B327,Απόστολος Τραγανίτης,Apostolos Traganitis,,,,
+B329,B329,Νικόλαος Κομοντάκης,Nikolaos Komontakis,,,,
+E301,E301,Επιστημονικός Συνεργάτης / Visiting Scientist,Νικόλαος Τσατσάκης / Nikolaos Tsatsakis,,,,
+E302,E302,Αίθουσα Συναντήσεων,Meeting Room,,,,
+E303,E303,Μαρίνα Μπιτσάκη & Μάνος Καμαριανάκης,Marina Bitsaki & Manos Kamarianakis,,,,
+E304,E304,Προϊσταμένη Γραμματείας / Administration,Ρένα Καλαϊτζάκη / Rena Kalaitzaki,,,,
+E305,E305,Μαρία Σαβιολάκη,Maria Saviolaki,,,,
+E306,E306,Πρόεδρος / Chair,Κωνσταντίνος Μαγκούτης / Kostas Magoutis,,,,
+E307,E307,Άννα Σφακιανάκη,Anna Sfakianaki,,,,
+E308,E308,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+E309,E309,Αίθουσα Σεμιναρίων,Seminar Room - E2,,,,
+E310,E310,Επισκέπτης Καθηγητής,Visiting Faculty,,,,
+E311,E311,Αίθουσα Σεμιναρίων,Seminar Room - E2,,,,
+E313,E313,Αίθουσα Σεμιναρίων,Seminar Room - E1,,,,
+E315,E315,Αίθουσα Σεμιναρίων,Seminar Room - E1,,,,
+E317,E317,Αίθουσα Ελέγχου,Control Room,,,,
+H301,H301,Μεταδιδακτορικοί Φοιτητές,Postgraduate Students,,,,
+H302,H302,Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής,Multimedia Informatics Lab (MIL) Speech Signal Processing,,,,
+H303,H303,Επισκέπτης Καθηγητής / Visiting Faculty,Γεώργιος Καφεντζής / Georgios Kafentzis,,,,
+H304,H304,Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής,Multimedia Informatics Lab (MIL) Speech Signal Processing,,,,
+H305,H305,Γιάννης Στυλιανού,Yannis Stylianou,,,,
+H306,H306,ΠΛΑΤΩΝ - Εργαστήριο Γλωσσών και Εργαλείων Προγραμματισμού,PLATO - Programming Languages and Tools Laboratory,,,,
+H307,H307,Επισκέπτης Καθηγητής / Visiting Professor,Νίκος Σιαφάκας / Nikos Siafakas,,,,
+H308,H308,Αίθουσα Τηλεκπαίδευσης,Distance Learning Classroom,,,,
+H309,H309,Χαρίδημος Κονδυλάκης,Haridimos Kondylakis,,,,
+H310,H310,Αποθήκη,Storage Room,,,,
+H311,H311,Αναπληρωτής Καθηγητής / Associate Professor,Κωνσταντίνος Μαγκούτης / Kostas Magoutis,,,,
+H312,H312,,,,,,
+H314,H314,,,,,,
+H316,H316,,,,,,
+K301,K301,,,,,,
+K302,K302,"Εργαστήριο Υπολογιστικής Όρασης, Γραφικής και Ρομποτικής","Computational Vision, Graphics and Robotics Laboratory",,,,
+K303,K303,Αίθουσα Συναντήσεων (+K300 εκτυπωτής),Meeting Room (+K300 printer),,,,
+K304,K304,"Εργαστήριο Υπολογιστικής Όρασης, Γραφικής και Ρομποτικής","Computational Vision, Graphics and Robotics Laboratory",,,,
+K305,K305,Ιωάννης Τσαμαρδίνος,Ioannis Tsamardinos,,,,
+K306,K306,Εργαστήριο Κυβερνοασφάλειας και Ιδιωτικότητας,Cybersecurity and Privacy Laboratory,,,,
+K307,K307,Δημήτρης Πλεξουσάκης,Dimitris Plexousakis,,,,
+K308,K308,Εργαστήριο Δικτύων και Οπτικοποίησης Πληροφορίας,Networks and Information Visualization Laboratory,,,,
+K309,K309,Αντώνης Αργυρός,Antonis Argyros,,,,
+K310,K310,Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή,Human-Computer Interaction Laboratory,,,,
+K311,K311,Παναγιώτα Φατούρου,Panagiota Fatourou,,,,
+K312,K312,Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή,Human-Computer Interaction Laboratory,,,,
+K313,K313,Πάνος Τραχανίας,Panos Trahanias,,,,
+K314,K314,"Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών","Computer Architecture, Systems, and Languages Laboratory",,,,
+K315,K315,Αντώνης Σαββίδης,Antonis Savidis,,,,
+K316,K316,"Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών","Computer Architecture, Systems, and Languages Laboratory",,,,
+K317,K317,Ιωάννης Γ. Τόλλης,Ioannis G. Tollis,,,,
+K319,K319,Βασίλης Παπαευσταθίου,Vassilis Papaefstathiou,,,,
+K321,K321,Κωνσταντίνος Στεφανίδης,Constantine Stephanidis,,,,
+K323,K323,Βαγγέλης Μαρκάτος,Evangelos Markatos,,,,
+K325,K325,Άγγελος Μπίλας,Angelos Bilas,,,,
+K327,K327,Πολύβιος Πρατικάκης,Polyvios Pratikakis,,,,
+K329,K329,Μανόλης Γ. Η. Κατεβαίνης,Manolis G. H. Katevenis,,,,
+AMFA,ΑΜΦ Α,Αμφιθέατρο Α,Auditorium A,,,,
+AMFSO,ΑΜΦ Σ.Ο.,Αμφιθέατρο Σ.Ο.,Auditorium S.O.,,,,
+AMFA_DOWN,ΑΜΦ Α,Αμφιθέατρο Α,Auditorium A,,,,
+AMFSO_DOWN,ΑΜΦ Σ.Ο.,Αμφιθέατρο Σ.Ο.,Auditorium S.O.,,,,
+Anagnostiria,Study Rooms,,Αναγνωστήρια,,,,
+,,,,,,,
+K1,K1 Corridor,,,,,,
