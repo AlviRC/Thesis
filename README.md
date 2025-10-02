@@ -8,4 +8,6 @@ This is a Unity project built with **Unity 6(6000.0.34f1)**.
 - `Packages/` – Package dependencies (`manifest.json`)
 - `ProjectSettings/` – Unity project settings
 
-## 🚀 Getting Started
+## 🚀 Website
+
+The website is currently running on: [text](http://csd3d.netlify.app/)
