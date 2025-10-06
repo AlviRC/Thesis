@@ -1,20 +1,20 @@
 ﻿!!!!!ΣΗΜΑΝΤΙΚΑ!!!!!,,,,
 1)  ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΑ ΠΑΡΑΚΑΤΩ,,,,
 "2) Το αρχείο πρέπει να έχει ΥΠΟΧΡΕΩΤΙΚΑ όνομα TeachersInfo και να είναι  Υπολογιστικό Φύλλο .csv διαχωρισμένο με ','(ΚΟΜΜΑ) στην εξαγωγή του αρχείου και UTF-8 κωδικοποίηση",,,,
-"3) όταν κάνετε εξαγωγή, σιγουρευτείτε ότι ονομάζετε το αρχείο TeachersInfo.csv",,,,
+"3) όταν κάνετε εξαγωγή, σιγουρευτείτε ότι το αρχείο ονομάζεται TeachersInfo.csv (το.csv μπορεί να μην φαίνεται αλλά αυτήν την κατάληξη θα έχει το αρχείο).",,,,
 4) ΔΕΝ ΠΕΙΡΑΖΟΥΜΕ την ΠΡΩΤΗ ΣΤΗΛΗ,,,,
 "5) Η ΠΡΩΤΗ ΣΤΗΛΗ αναπαριστά την αίθουσα του αναφερόμενου προσώπου της γραμμής. π.χ. για την Κ-213, τα γράμματα να είναι στα αγγλικά/λατινικά, μετά μία -(παύλα) και τέλος τα νούμερα, όλα ενωμένα χωρίς κενά, δηλαδή Κ-213",,,,
 6) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΤΗΝ ΣΕΙΡΑ ΤΩΝ ΣΤΗΛΩΝ,,,,
 "7) Στην 4η ΣΤΗΛΗ(EMAIL ΠΡΟΣΩΠΙΚΟΥ) να δωθεί ΜΟΝΟ ένα EMAIL, του αναφερόμενου προσωπικού της γραμμής.",,,,
-"7) Στην 5η ΣΤΗΛΗ(ΣΥΝΔΕΣΜΟΣ ΠΡΟΣΩΠΙΚΟΥ) να δωθεί ΜΟΝΟ ένας σύνδεσμος, του αναφερόμενου προσωπικού της γραμμής.",,,,
-"8)Πάντα ελέγχουμε όταν κάνουμε αλλαγές, μετά από ένα 5-10λεπτο, ότι οι αλλαγές ανανεώθηκαν στο πρόγραμμα και δεν υπάρχουν προβλήματα. (Εννοείται ελέγχουμε μετά το ανέβασμα του αρχείου στο repository)",,,,
-9) Ελέγχουμε το μενού με τους καθηγητές να δούμε ότι ανανεώθηκαν σωστά οι πληροφορίες,,,,
-10) Ελέγχουμε ότι το αρχείο δεν έχει παράξενα σύμβολα μετά την εξαγωγή,,,,
-11) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΠΡΙΝ ΤΗΝ ΓΡΑΜΜΗ 18. Επεξεργασία στις γραμμές από την ΓΡΑΜΜΗ 18 και κάτω.,,,,
-12) ΔΕΝ αλλάζουμε την Γραμμή 18 - Κατηγορίες Στηλών,,,,
-13) Κάνουμε εξαγωγή αρχείο CSV-Υπολογιστικό Φύλλο με UTF-8 ,,,,
-"14) ΥΠΟΧΡΕΩΤΙΚΑ διαχωρισμένο με ','(ΚΟΜΜΑ): Εξαγωγή/Αποθήκευση Ως CSV UTF-8 (Comma delimited)",,,,
-15) Το αρχείο πρέπει να είναι CSV και η τελική του ονομασία να είναι                           TeachersInfo.csv,,,,
+"8) Στην 5η ΣΤΗΛΗ(ΣΥΝΔΕΣΜΟΣ ΠΡΟΣΩΠΙΚΟΥ) να δωθεί ΜΟΝΟ ένας σύνδεσμος, του αναφερόμενου προσωπικού της γραμμής.",,,,
+"9)Πάντα ελέγχουμε όταν κάνουμε αλλαγές, μετά από ένα 5-10λεπτο, ότι οι αλλαγές ανανεώθηκαν στην ιστοσελίδα και δεν υπάρχουν προβλήματα. (Εννοείται ελέγχουμε μετά το ανέβασμα του αρχείου στο repository)",,,,
+10) Ελέγχουμε το μενού με τους καθηγητές να δούμε ότι ανανεώθηκαν σωστά οι πληροφορίες,,,,
+11) Ελέγχουμε ότι το αρχείο δεν έχει παράξενα σύμβολα μετά την εξαγωγή,,,,
+12) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΠΡΙΝ ΚΑΙ ΤΗΝ ΓΡΑΜΜΗ 18. Επεξεργασία στις γραμμές από την ΓΡΑΜΜΗ 19 και κάτω.,,,,
+13) ΔΕΝ αλλάζουμε την Γραμμή 18 - Κατηγορίες Στηλών,,,,
+14) Κάνουμε εξαγωγή αρχείο CSV-Υπολογιστικό Φύλλο με UTF-8 ,,,,
+"15) ΥΠΟΧΡΕΩΤΙΚΑ διαχωρισμένο με ','(ΚΟΜΜΑ): Εξαγωγή/Αποθήκευση Ως CSV UTF-8 (Comma delimited)",,,,
+16) Το αρχείο πρέπει να είναι CSV και η τελική του ονομασία να είναι TeachersInfo.csv (το.csv μπορεί να μην φαίνεται αλλά αυτήν την κατάληξη θα έχει το αρχείο).,,,,
 ΑΙΘΟΥΣΑ ΠΡΟΣΩΠΙΚΟΥ,ΟΝΟΜΑ ΠΡΟΣΩΠΙΚΟΥ,ΤΙΤΛΟΣ ΠΡΟΣΩΠΙΚΟΥ,EMAIL ΠΡΟΣΩΠΙΚΟΥ,ΙΣΤΟΣΕΛΙΔΑ ΠΡΟΣΩΠΙΚΟΥ
 Κ-215,Γεώργιος Παπαγιαννάκης/George Papagiannakis,Καθηγητής/Professor,papagian@csd.uoc.gr,http://www.csd.uoc.gr/~papagian
 B-215,Γιάννης Σουρλαντζής/Yannis Sourlantzis,Ειδικό Τεχνικό Εργαστηριακό Προσωπικό/Special Technical Laboratory Staff,surlatzi@csd.uoc.gr,
@@ -29,7 +29,7 @@ B-304,Τσαγκατάκης Γρηγόριος/Tsagkatakis Grigorios,Επίκο
 B-309,Πάνος Τσακαλίδης/Panos Tsakalides,Καθηγητής/Professor,tsakalid@csd.uoc.gr,http://users.ics.forth.gr/~tsakalid/
 B-313,Θανάσης Μουχτάρης/Thanasis Mouchtaris,Αναπληρωτής Καθηγητής/Associate Professor,mouchtar@ics.forth.gr,https://www.csd.uoc.gr/~mouchtar/
 B-315,Μαρία Παπαδοπούλη/Maria Papadopouli,Καθηγητής/Professor,maria@csd.uoc.gr,http://www.csd.uoc.gr/~maria
-B-317,Ξενοφώντας Δημητρόπουλος/Xenofontas Dimitropoulos,Καθηγητής/Professor,xd@csd.uoc.gr,http://www.inspire.edu.gr/%7Efontas/
+B-317,Ξενοφόντας Δημητρόπουλος/Xenofontas Dimitropoulos,Καθηγητής/Professor,xd@csd.uoc.gr,http://www.inspire.edu.gr/%7Efontas/
 B-319,Γεώργιος Τζιρίτας/Georgios Tziritas,Ομότιμος Καθηγητής/Εmeritus Professor,tziritas@csd.uoc.gr,https://www.csd.uoc.gr/~tziritas/
 B-327,Απόστολος Τραγανίτης/Apostolos Traganitis,Ομότιμος Καθηγητής/Εmeritus Professor,tragani@ics.forth.gr,http://www.csd.uoc.gr/CSD/index.jsp?custom=apostolos_traganitis
 B-329,Νικόλαος Κομοντάκης/Nikolaos Komontakis,Επίκουρος Καθηγητής/Assistant Professor,komod@csd.uoc.gr,http://www.csd.uoc.gr/~komod
@@ -42,7 +42,7 @@ H-305,Γιάννης Στυλιανού/Yannis Stylianou,Καθηγητής/Prof
 H-307,Νικόλαος Σιαφάκας/Nikos Siafakas,Επισκέπτης Καθηγητής/Visiting Professor,,
 H-309,Χαρίδημος Κονδυλάκης/Haridimos Kondylakis,Αναπληρωτής Καθηγητής/Associate Professor,kondylak@csd.uoc.gr,http://users.ics.forth.gr/~kondylak/
 E-306,Kostas Magoutis; Associate Professor,Head of Department & Καθηγητής/Professor,magoutis@csd.uoc.gr,http://www.csd.uoc.gr/~magoutis
-K-305,Ιωάννης Τσαμαρδίνος/Ioannis Tsamardinos,Καθηγητής/Professor,tsamard@csd.uoc.gr,https://scholar.google.com/citations?user=7fendUwAAAAJ&hl=el
+K-305,Ιωάννης Τσαμαρδίνος/Ioannis Tsamardinos,Καθηγητής/Professor,tsamard@csd.uoc.gr,http://www.mensxmachina.org/
 K-307,Δημήτρης Πλεξουσάκης/Dimitris Plexousakis,Director of ICS FORTH & Καθηγητής/Professor,dp@csd.uoc.gr,https://www.csd.uoc.gr/index.jsp?custom=dimitris_pleksousakis
 K-309,Αντώνης Αργυρός/Antonis Argyros,Καθηγητής/Professor,argyros@csd.uoc.gr,http://www.csd.uoc.gr/~argyros
 K-311,Παναγιώτα Φατούρου/Panagiota Fatourou,Καθηγητής/Professor,faturu@csd.uoc.gr,http://www.ics.forth.gr/~faturu/
