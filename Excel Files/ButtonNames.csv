@@ -1,0 +1,210 @@
+﻿!!!!!ΣΗΜΑΝΤΙΚΑ!!!!!,
+1)  ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΑ ΠΑΡΑΚΑΤΩ,
+"2) Το αρχείο πρέπει να έχει ΥΠΟΧΡΕΩΤΙΚΑ όνομα ButtonNames και να είναι  Υπολογιστικό Φύλλο .csv διαχωρισμένο με ','(ΚΟΜΜΑ) στην εξαγωγή του αρχείου και UTF-8 κωδικοποίηση",
+"3) όταν κάνετε εξαγωγή, σιγουρευτείτε ότι ονομάζετε το αρχείο ButtonNames.csv (το.csv μπορεί να μην φαίνεται αλλά αυτήν την κατάληξη θα έχει το αρχείο).",
+4) ΔΕΝ ΠΕΙΡΑΖΟΥΜΕ την ΠΡΩΤΗ ΣΤΗΛΗ,
+"5) Η ΠΡΩΤΗ ΣΤΗΛΗ αναπαριστά την αληθινή αίθουσα στο κτήριο και οτιδήποτε γραφτεί στην ΕΠΟΜΕΝΗ ΣΤΗΛΗ είναι η πληροφορία του κουμπιού που αναπαριστά την συγκεκριμένη αίθουσα. Δηλαδή για την αίθουσα Α113, βρίσκουμε το Α113 στην αριστερή(1η) στήλη και από δίπλα γράφουμε ό,τι θέλουμε να αναγράφεται στο κουμπί στα μενού που θα έχει σύνδεση με αυτήν την αίθουσα, π.χ Α113 - Lecture Room - Αίθουσα Διδασκαλίας",
+6) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΤΗΝ ΣΕΙΡΑ ΤΩΝ ΣΤΗΛΩΝ,
+7) Στην 2η ΣΤΗΛΗ μπορεί να γραφτεί οτιδήποτε,
+"8)Πάντα ελέγχουμε όταν κάνουμε αλλαγές, μετά από ένα 5-10λεπτο, ότι οι αλλαγές ανανεώθηκαν στην ιστοσελίδα και δεν υπάρχουν προβλήματα. (Εννοείται ελέγχουμε μετά το ανέβασμα του αρχείου στο repository)",
+9) Ελέγχουμε τα κουμπία που αλλάζουμε μέσα στα μενού στις αίθουσες του κτηρίου(όροφοι 1-3) να σιγουρευτούμε ότι έγιναν σωστά οι αλλαγές.,
+10) Ελέγχουμε ότι το αρχείο δεν έχει παράξενα σύμβολα μετά την εξαγωγή,
+11) ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΠΡΙΝ ΚΑΙ ΤΗΝ ΓΡΑΜΜΗ 17. Επεξεργασία στις γραμμές από την ΓΡΑΜΜΗ 18 και κάτω.,
+12) ΔΕΝ αλλάζουμε την Γραμμή 17 - Κατηγορίες Στηλών,
+13) Κάνουμε εξαγωγή αρχείο CSV-Υπολογιστικό Φύλλο με UTF-8 ,
+"14) ΥΠΟΧΡΕΩΤΙΚΑ διαχωρισμένο με ','(ΚΟΜΜΑ): Εξαγωγή/Αποθήκευση Ως CSV UTF-8 (Comma delimited)",
+15) Το αρχείο πρέπει να είναι CSV και η τελική του ονομασία να είναι ButtonNames.csv (το.csv μπορεί να μην φαίνεται αλλά αυτήν την κατάληξη θα έχει το αρχείο).,
+!!!!!ΔΕΝ ΑΛΛΑΖΟΥΜΕ ΑΥΤΗΝ ΤΗΝ ΣΤΗΛΗ!!!!!,ΠΛΗΡΟΦΟΡΙΕΣ ΚΟΥΜΠΙΩΝ
+Level 1 - A101,A101: Εργαστήριο Τηλεπικοινωνιών και Δικτύων / Networking and Communications Lab
+Level 1 - A103,A103: Εργαστήριο Ψηφιακής Σχεδίασης / Digital Design Lab - 2
+Level 1 - A105,A105: Εργαστήριο Ψηφιακής Σχεδίασης / Digital Design Lab - 2
+Level 1 - A107,A107: Εργαστήριο Ψηφιακής Σχεδίασης / Digital Design Lab - 1
+Level 1 - A109,A109: Εργαστήριο Ψηφιακής Σχεδίασης /  Digital Design Lab  - 1
+Level 1 - A111,A111: Αίθουσα Διδασκαλίας / Lecture Room - A1
+Level 1 - A113,A113: Αίθουσα Διδασκαλίας / Lecture Room - A1
+Level 1 - A115,"A115: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Αίθουσα Διδασκαλίας / Lecture Room , A2"
+Level 1 - A117,"A117: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Αίθουσα Διδασκαλίας / Lecture Room , A2"
+Level 1 - A119,A119: Αίθουσα Διδασκαλίας / Lecture Room - A3
+Level 1 - A121,A121: Αίθουσα Διδασκαλίας / Lecture Room - A3
+Level 1 - A123,A123: Αίθουσα Διδασκαλίας / Lecture Room - A4
+Level 1 - A125,A125: Αίθουσα Διδασκαλίας / Lecture Room - A4
+Level 1 - B101,B101
+Level 1 - B102,B102: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - B105,B103
+Level 1 - B104,B104: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - B105,B105
+Level 1 - B106,B106: Αίθουσα Διδασκαλίας με Η/Υ / Lecture Room
+Level 1 - B107,B107: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - B108,B108: Αίθουσα Διδασκαλίας με Η/Υ / Lecture Room
+Level 1 - B109,B109: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Μεταπτυχιακοί Φοιτητές / Graduate Students
+Level 1 - B110,B110: Αίθουσα Διδασκαλίας με Η/Υ / Lecture Room
+Level 1 - B111,B111: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Μεταπτυχιακοί Φοιτητές / Graduate Students
+Level 1 - B112,B112
+Level 1 - B113,B113: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - B115,B115: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E101,E101: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E102,E102
+Level 1 - E103,E103: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E104,E104
+Level 1 - E105,E105: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E106,E106
+Level 1 - E108,E108: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E110,E110: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - E112,E112: Εκπαιδευτικό Εργαστήριο Η/Υ / Computer Room
+Level 1 - H101,H101
+Level 1 - H102,H102
+Level 1 - H103,H103
+Level 1 - H104,H104: Αποθήκη / Storage Room
+Level 1 - H105,H105: Κυλικείο / Cafeteria
+Level 1 - H106,H106: Σύλλογος Φοιτητών ΤΕΥ / CSD Students' Association
+Level 1 - H107,H107: Κυλικείο / Cafeteria
+Level 1 - H108,H108: Τεχνική Υποστήριξη / Technical Support
+Level 1 - H109,H109 - Front Door
+Level 1 - H109b,H109 - Back Door
+Level 1 - H110,H110: Αποθήκη Υλικού / Materials Storage
+Level 1 - H112,H112
+Level 1 - H114,H114
+K1 Corridor,K1 Corridor
+Level 2 - B201,B201: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Σταμάτης Σταματιάδης / Stamatis Stamatadis
+Level 2 - B202,B202: Αίθουσα Μηχανών / Machine Room
+Level 2 - B203,B203: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Εμμανουήλ Τυλλιανάκης / Emmanuel Tyllianakis
+Level 2 - B204,B204: Αίθουσα Μηχανών / Machine Room
+Level 2 - B205,B205: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Γεώργιος Κιοσέογλου / George Kioseoglou
+Level 2 - B206,B206: Συντήρηση / Service
+Level 2 - B207,B207: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Ιωάννης Ρεμεδιάκης / Ioannis Remediakis
+Level 2 - B208,B208: Μεταπτυχιακό Σπουδαστήριο / Graduate Students
+Level 2 - B209,B209: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Γεώργιος Κοπιδάκης / George Kopidakis
+Level 2 - B210,B210: Μεταπτυχιακό Σπουδαστήριο / Graduate Students
+Level 2 - B211,B211: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Ανδρέας Λυμπεράτος / Andreas Lyberatos
+Level 2 - B212,B212: Μεταπτυχιακό Σπουδαστήριο / Graduate Students
+Level 2 - B214,B214
+Level 2 - B213,B213: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Μαρία Καφεσάκη & Δημήτριος Παπάζογλου / Maria Kafesaki & Dimitrios Papazoglou
+Level 2 - B215,B215: Γιάννης Σουρλαντζής / Yannis Sourlantzis
+Level 2 - B217,B217: Νίκος Κρασσάς / Nikolas Krassas
+Level 2 - B219,B219:  Παναγιώτης Βαβίλης / Panagiotis Vavilis
+Level 2 - B221,B221
+Level 2 - B223,B223
+Level 2 - B225,B225
+Level 2 - B227,B227: <color=#006BFF>Τμήμα Επιστήμης και Μηχανικής Υλικών / Department of Materials Science and Engineering</color> - Δημήτριος Τζεράνης / Dimitrios Tzeranis
+Level 2 - B229,B229: Μαίρη Μαμαλάκη / Maria Mamalaki
+Level 2 - E201,"E201: Γραμματεία Προπτυχιακών Σπουδών / Office of Undergraduate Studies -  Στέλλα Συντιχάκη , Δέσποινα Χατζάκη / Stella Syntichaki , Despoina Chatzaki"
+Level 2 - E202,E202: Γραμματεία Μεταπτυχιακών Σπουδών / Office of Graduate Studies
+Level 2 - E203,E203: Θυρίδες - Φωτοτυπικό / Copy Room
+Level 2 - E204,E204: Γραφείο Υποψήφιων Διδακτόρων / Office of Doctoral Candidates
+Level 2 - E205,E205: Τμήμα Επιστήμης Υπολογιστών - Αρχείο / Department of Computer Science - Registry
+Level 2 - E206,E206: Νόνη Ριζοπούλου / Noni Rizopoulou
+Level 2 - E207,E207
+Level 2 - E208,E208: ΑΙΘΟΥΣΑ ΣΥΝΕΔΡΙΩΝ - ΜΟΝΑΔΑ ΙΣΟΤΙΜΗΣ ΠΡΟΣΒΑΣΗΣ / Conference Room - Peer Access Unit
+Level 2 - E210,E210: Παύλος Μαθιουδάκης / Pavlos Mathioudakis
+Level 2 - H201,H201: Ομάδα Καθαριότητας / Cleaning Team
+Level 2 - H202,H202: Αίθουσα Διδασκαλίας / Lecture Room - H1
+Level 2 - H203,"H203: Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory - Athanasia Margetousaki, Harria Papadaki, Maria Vitsaki, Glykeria Fragioudaki"
+Level 2 - H204,H204: Αίθουσα Διδασκαλίας / Lecture Room - H1
+Level 2 - H205,H205: Ομάδα Δαίδαλος / 0xdeadalu5 CTF Team
+Level 2 - H206,H206: Αίθουσα Διδασκαλίας / Lecture Room - H2
+Level 2 - H208,H208: Αίθουσα Διδασκαλίας / Lecture Room - H3
+Level 2 - H210,H210
+Level 2 - H212,H212
+Level 2 - H214,H214
+Level 2 - H216,H216
+Level 2 - K201,K201: Αίθουσα Συναντήσεων / Meeting Room
+Level 2 - K202,K202: Αίθουσα Τηλεκπαίδευσης / Distance Learning Classroom
+Level 2 - K203,K203: Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory - Γιώργος Βιτσάκης / Giorgos Vitsakis
+Level 2 - K204,K204: Αίθουσα Τηλεκπαίδευσης / Distance Learning Classroom
+Level 2 - K205,K205: Εργαστήριο Επεξεργασίας Δεδομένων / Data Processing Laboratory - Γρηγόρης Τζανοδασκαλάκης / Grigoris Tzanodaskalakis
+Level 2 - K206,K206: Αίθουσα Τηλεκπαίδευσης / Distance Learning Classroom
+Level 2 - K207,K207: Μιχάλης Μουνταντωνάκης / Michalis Mountantonakis
+Level 2 - K208,K208: Αίθουσα Τηλεκπαίδευσης / Distance Learning Classroom
+Level 2 - K209,K209: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 2 - K210,K210: Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory
+Level 2 - K211,K211: Φραγκιαδάκης Γιάννης / Fragkiadakis Yannis
+Level 2 - K212,K212: Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory
+Level 2 - K213,K213
+Level 2 - K214,K214: Εργαστήριο Παράλληλου και Κατανεμημένου Υπολογισμού / Parallel and Distributed Computing Laboratory
+Level 2 - K215,K215: Γιώργος Παπαγιαννάκης / George Papagiannakis
+Level 2 - K216,K216: Εργαστήριο 3D Εκτύπωσης και Κατασκευών / 3D Printing & Makers' Lab - Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων / Information and Knowledge Systems Engineering Laboratory
+Level 2 - K217,K217: Αίθουσα Συναντήσεων / Meeting Room
+Level 2 - K218,K218: Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων / Information and Knowledge Systems Engineering Laboratory
+Level 2 - K219,K219: Αίθουσα Συναντήσεων / Meeting Room
+Level 2 - K220,K220: Εργαστήριο Μηχανικής Πληροφοριακών και Γνωσιακών Συστημάτων / Information and Knowledge Systems Engineering Laboratory
+Level 2 - K221,K221: Γιάννης Τζίτζικας / Yannis Tzitzikas
+Level 2 - K223,K223: Μάριος Πιτικάκης / Marios Pitikakis
+Level 2 - K225,K225: Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory - Μεταδιδακτορικοί Ερευνητές / Postdoctoral Researchers
+Level 2 - K227,K227: Εργαστήριο Ανάλυσης Δεδομένων / Data Analysis Laboratory - Γραμματεία / Secretariat - Μεταδιδακτορικοί Ερευνητές / Postdoctoral Researchers
+Level 3 - B301,B301: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - B302,B302: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - B303,B303: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - B304,B304: Τσαγκατάκης Γρηγόριος / Tsagkatakis Grigorios
+Level 3 - B305,B305: Τσαγκατάκης Γρηγόριος / Tsagkatakis Grigorios
+Level 3 - B306,B306: Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων / Signal and Image Processing Laboratory
+Level 3 - B307,B307: Τσαγκατάκης Γρηγόριος / Tsagkatakis Grigorios
+Level 3 - B308,B308: Εργαστήριο Επεξεργασίας Σημάτων και Εικόνων / Signal and Image Processing Laboratory
+Level 3 - B309,B309: Πάνος Τσακαλίδης / Panos Tsakalides
+Level 3 - B310,B310 - Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων
+Level 3 - B311,B311: Λεωνίδης Αστέριος / Leonidis Asterios
+Level 3 - B312,B312 - Εργαστήριο Δικτύων και Κινητών Υπολογιστικών Συστημάτων
+Level 3 - B313,B313: Θανάσης Μουχτάρης / Thanasis Mouchtaris
+Level 3 - B314,B314: Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης / Faculty Meeting Room
+Level 3 - B315,B315: Μαρία Παπαδοπούλη / Maria Papadopouli
+Level 3 - B316,B316: Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης / Faculty Meeting Room
+Level 3 - B317,B317: Ξενοφόντας Δημητρόπουλος / Xenofontas Dimitropoulos
+Level 3 - B318,B318: Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης / Faculty Meeting Room
+Level 3 - B319,B319: Γεώργιος Τζιρίτας / Georgios Tziritas
+Level 3 - B320,B320: Αίθουσα Συνεδριάσεων Γενικής Συνέλευσης / Faculty Meeting Room
+Level 3 - B321,B321
+Level 3 - B322,B322
+Level 3 - B323,B323
+Level 3 - B325,B325
+Level 3 - B327,B327: Απόστολος Τραγανίτης / Apostolos Traganitis
+Level 3 - B329,B329: Νικόλαος Κομοντάκης / Nikolaos Komontakis
+Level 3 - E301,E301: Νικόλαος Τσατσάκης / Nikolaos Tsatsakis - Επιστημονικός Συνεργάτης / Visiting Scientist
+Level 3 - E302,E302: Αίθουσα Συναντήσεων / Meeting Room
+Level 3 - E303,E303: Μαρίνα Μπιτσάκη & Μάνος Καμαριανάκης / Maria Bitsaki & Manos Kamarianakis
+Level 3 - E304,E304: Προϊσταμένη Γραμματείας / Administration - Ρένα Καλαϊτζάκη / Rena Kalaitzaki
+Level 3 - E305,E305: Μαρία Σαβιολάκη / Maria Saviolaki
+Level 3 - E306,E306: Πρόεδρος / Chair - Κωνσταντίνος Μαγκούτης / Kostas Magoutis
+Level 3 - E307,E307: Άννα Σφακιανάκη / Anna Sfakianaki
+Level 3 - E308,E308: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - E309,E309: Αίθουσα Σεμιναρίων / Seminar Room - E2
+Level 3 - E310,E310: Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - E311,E311: Αίθουσα Σεμιναρίων / Seminar Room - E2
+Level 3 - E313,E313: Αίθουσα Σεμιναρίων / Seminar Room - E1
+Level 3 - E315,E315: Αίθουσα Σεμιναρίων / Seminar Room - E1
+Level 3 - E317,E317: Αίθουσα Ελέγχου / Control Room
+Level 3 - H301,H301: Μεταδιδακτορικοί Φοιτητές - Postgraduate Students
+Level 3 - H302,H302: Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής - Multimedia Informatics Lab (MIL) Speech Signal Processing
+Level 3 - H303,H303: Γεώργιος Καφεντζής / Georgios Kafentzis - Επισκέπτης Καθηγητής / Visiting Faculty
+Level 3 - H304,H304: Εργαστήριο Πολυμέσων - Επεξεργασία Σήματος Φωνής - Multimedia Informatics Lab (MIL) Speech Signal Processing
+Level 3 - H305,H305: Γιάννης Στυλιανού / Yannis Stylianou
+Level 3 - H306,H306: ΠΛΑΤΩΝ - Εργαστήριο Γλωσσών και Εργαλείων Προγραμματισμού / PLATO - Programming Languages and Tools Laboratory
+Level 3 - H307,H307: Νίκος Σιαφάκας / Nikos Siafakas - Επισκέπτης Καθηγητής / Visiting Professor
+Level 3 - H308,H308: Αίθουσα Τηλεκπαίδευσης / Distance Learning Classroom
+Level 3 - H309,H309: Χαρίδημος Κονδυλάκης / Haridimos Kondylakis
+Level 3 - H310,H310: Αποθήκη / Storage Room
+Level 3 - H311,H311: Κωνσταντίνος Μαγκούτης / Kostas Magoutis - Αναπληρωτής Καθηγητής / Associate Professor
+Level 3 - H312,H312
+Level 3 - H314,H314
+Level 3 - H316,H316
+Level 3 - K301,K301
+Level 3 - K302,"K302: Εργαστήριο Υπολογιστικής Όρασης Γραφικής και Ρομποτικής / Computational Vision, Graphics and Robotics Laboratory"
+Level 3 - K303,K303: Αίθουσα Συναντήσεων / Meeting Room
+Level 3 - K304,"K304: Εργαστήριο Υπολογιστικής Όρασης Γραφικής και Ρομποτικής / Computational Vision, Graphics and Robotics Laboratory"
+Level 3 - K305,K305: Ιωάννης Τσαμαρδίνος / Ioannis Tsamardinos
+Level 3 - K306,K306: Εργαστήριο Κυβερνοασφάλειας και Ιδιωτικότητας / Cybersecurity and Privacy Laboratory
+Level 3 - K307,K307: Δημήτρης Πλεξουσάκης / Dimitris Plexousakis
+Level 3 - K308,K308: Εργαστήριο Δικτύων και Οπτικοποίησης Πληροφορίας / Networks and Information Visualization Laboratory
+Level 3 - K309,K309: Αντώνης Αργυρός - Antonis Argyros
+Level 3 - K310,K310: Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή / Human-Computer Interaction Laboratory
+Level 3 - K311,K311: Παναγιώτα Φατούρου / Panagiota Fatourou
+Level 3 - K312,K312: Εργαστήριο Αλληλεπίδρασης Ανθρώπου-Υπολογιστή / Human-Computer Interaction Laboratory
+Level 3 - K313,K313: Πάνος Τραχανίας / Panos Trahanias
+Level 3 - K314,"K314: Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών / Computer Architecture, Systems, and Languages Laboratory"
+Level 3 - K315,K315: Αντώνης Σαββίδης / Antonis Savidis
+Level 3 - K316,"K316: Εργαστήριο Αρχιτεκτονικής, Συστημάτων, και Γλωσσών Υπολογιστών / Computer Architecture, Systems, and Languages Laboratory"
+Level 3 - K317,K317: Ιωάννης Γ. Τόλλης / Ioannis G. Tollis
+Level 3 - K319,K319: Βασίλης Παπαευσταθίου / Vassilis Papaefstathiou
+Level 3 - K321,K321: Κωνσταντίνος Στεφανίδης / Constantine Stephanidis
+Level 3 - K323,K323: Βαγγέλης Μαρκάτος / Evangelos Markatos
+Level 3 - K325,K325: Άγγελος Μπίλας / Angelos Bilas
+Level 3 - K327,K327: Πολύβιος Πρατικάκης / Polyvios Pratikakis
+Level 3 - K329,K329: Μανόλης Γ. Η. Κατεβαίνης / Manolis G. H. Katevenis
