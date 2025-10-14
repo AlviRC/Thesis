@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity Web Player | Computer Science Department</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #unity-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      /* fallback */
+    }
+
+    #splash-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("TemplateData/splash.jpg") no-repeat center center;
+      background-size: cover;
+      z-index: 1;
+    }
+
+    /* Full-screen overlay for loader content */
+    #custom-loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      /* flex inside loader only */
+      justify-content: center;
+      /* horizontal center of loader items */
+      align-items: center;
+      /* vertical center of loader items */
+      flex-direction: column;
+      gap: 16px;
+      z-index: 2;
+    }
+
+    #unity-canvas {
+      display: block;
+      margin: 0 auto;
+      /* horizontal centering */
+    }
+
+
+    #loading-logo {
+      width: 200px;
+    }
+
+    #custom-progress-container {
+      width: 300px;
+      height: 25px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+    }
+
+    #custom-progress-bar {
+      width: 0%;
+      height: 100%;
+      background-color: #4caf50;
+      transition: width 0.3s;
+    }
+
+    #loading-text {
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: white;
+    }
+
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid white;
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div id="unity-container" class="unity-desktop">
+    <div id="splash-background"></div> <!-- ✅ splash background -->
+
+    <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
+
+    <!-- Hidden default Unity loading bar -->
+    <div id="unity-loading-bar" style="display:none;">
+      <div id="unity-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+
+    <!-- ✅ Custom Loader -->
+    <div id="custom-loader">
+      <img id="loading-logo" src="TemplateData/custom-logo.png" alt="Game Logo">
+      <div id="custom-progress-container">
+        <div id="custom-progress-bar"></div>
+      </div>
+      <div id="loading-text">
+        <div class="spinner"></div>
+        <span>Loading... Please wait. If it pauses, it’s still working and not stuck.</span>
+      </div>
+      <p id="loading-percentage">0%</p>
+    </div>
+
+    <div id="unity-warning"></div>
+    <div id="unity-footer">
+      <div id="unity-logo-title-footer"></div>
+      <div id="unity-fullscreen-button"></div>
+      <div id="unity-build-title">Computer Science Department</div>
+    </div>
+  </div>
+
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+
+    function unityShowBanner(msg, type) {
+      var warningBanner = document.querySelector("#unity-warning");
+      function updateBannerVisibility() {
+        warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+      }
+      var div = document.createElement('div');
+      div.innerHTML = msg;
+      warningBanner.appendChild(div);
+      if (type == 'error') div.style = 'background: red; padding: 10px;';
+      else {
+        if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+        setTimeout(function () {
+          warningBanner.removeChild(div);
+          updateBannerVisibility();
+        }, 5000);
+      }
+      updateBannerVisibility();
+    }
+
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/HopefulBuild3.loader.js";
+    var config = {
+      arguments: [],
+      dataUrl: buildUrl + "/HopefulBuild3.data.unityweb",
+      frameworkUrl: buildUrl + "/HopefulBuild3.framework.js.unityweb",
+      codeUrl: buildUrl + "/HopefulBuild3.wasm.unityweb",
+      symbolsUrl: buildUrl + "/HopefulBuild3.symbols.json.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "CSD",
+      productName: "Computer Science Department",
+      productVersion: "0.1.0",
+      showBanner: unityShowBanner,
+    };
+
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      var meta = document.createElement('meta');
+      meta.name = 'viewport';
+      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+      document.getElementsByTagName('head')[0].appendChild(meta);
+      document.querySelector("#unity-container").className = "unity-mobile";
+      canvas.className = "unity-mobile";
+    } else {
+      canvas.style.width = "960px";
+      canvas.style.height = "540px";
+    }
+
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => {
+      createUnityInstance(canvas, config, (progress) => {
+        // ✅ Update progress bar + percentage
+        document.querySelector("#custom-progress-bar").style.width = (progress * 100) + "%";
+        document.querySelector("#loading-percentage").innerText = Math.round(progress * 100) + "%";
+      }).then((unityInstance) => {
+        // Hide loader + splash once Unity is ready
+        document.querySelector("#custom-loader").style.display = "none";
+        document.querySelector("#splash-background").style.display = "none";
+        document.querySelector("#unity-fullscreen-button").onclick = () => {
+          unityInstance.SetFullscreen(1);
+        };
+      }).catch((message) => {
+        alert(message);
+      });
+    };
+    document.body.appendChild(script);
+  </script>
+</body>
+
+</html>

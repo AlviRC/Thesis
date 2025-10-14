@@ -1,0 +1,3 @@
+After a build is done inside Unity, the default index.html produced a simple default Unity html file. Change the index.html in the previous folder with one in this folder, to have the splash screen, logo, custom loading bar, information and spinner.
+
+the _headers files must also be included in the previous folder, next to index.html and the other folders, for the program to work on certain server hosts like Netlify.
