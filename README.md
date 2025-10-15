@@ -7,11 +7,17 @@ This application was created as part of the Bachelor’s Thesis of Alvi Nikola, 
 The primary purpose of this project is to provide an interactive 3D representation of the department’s building, offering users the ability to explore, navigate, and learn about the department’s facilities, personnel, and academic information in a realistic virtual environment.
 
 The platform aims to assist:
+
 New students in becoming familiar with the department and its spaces,
+
 Students with limited mobility by providing accessible navigation paths using elevators and ramps,
+
 Foreign and remote students through bilingual information and virtual tours,
+
 Visitors and prospective students in understanding the and of the department.
-The application supports free exploration, guided navigation, teleportation to key destinations, and access to up-to-date academic information, such as course lists, timetables, and staff details.
+
+The application supports free exploration, guided navigation, teleportation to key destinations,
+and access to up-to-date academic information, such as course lists, timetables, and staff details.
 
 This project was supervised by Professor George Papagiannakis and Dr. Manos Kamarianakis, whose continuous guidance, feedback, and insightful advice were invaluable throughout the development process.
 
