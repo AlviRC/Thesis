@@ -32,7 +32,7 @@ This is a Unity project built with **Unity 6(6000.0.34f1)**.
 - `Excel Files/` – The Personnel and Room Information showcased inside the progrmam.
 - `SketchUp/` – Contains the SketchUp file of the 3D Building.
 - `Tutorials/` – Contains Video Tutorials about editing the personnel information and about technical things inside Unity.
-- `Unity Project/` – The Unity Project Folder
+- `Unity Project/` – The Unity Project Folder ,(created in **Unity 6(6000.0.34f1)**).
 - `WebGL Build/` – Contains the Unity Build Folder.
 
 ## 🚀 Website
